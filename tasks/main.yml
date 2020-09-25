@@ -4,7 +4,7 @@
   yum:
     name:
     - pcs
-    - corosync_qnetd
+    - corosync-qnetd
 - name: Start and Enable pcsd.service
   systemd:
     name: pcsd
