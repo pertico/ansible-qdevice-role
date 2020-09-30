@@ -11,5 +11,5 @@
     enabled: true
     state: started
 - name: Setup quorum device
-  shell: pcs qdevice setup model net --enable --start
+  command: pcs qdevice setup model net --enable --start
 
