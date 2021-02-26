@@ -12,4 +12,5 @@
     state: started
 - name: Setup quorum device
   command: pcs qdevice setup model net --enable --start
-  create: /etc/corosync/qnetd/nssdb/qnetd-cacert.crt
+  args:
+    creates: /etc/corosync/qnetd/nssdb/qnetd-cacert.crt
